@@ -1,6 +1,6 @@
 # npmtest-pagination
 
-#### test coverage for  [pagination (v0.4.4)](https://github.com/vanng822/pagination)  [![npm package](https://img.shields.io/npm/v/npmtest-pagination.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-pagination) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-pagination.svg)](https://travis-ci.org/npmtest/node-npmtest-pagination)
+#### basic test coverage for  [pagination (v0.4.4)](https://github.com/vanng822/pagination)  [![npm package](https://img.shields.io/npm/v/npmtest-pagination.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-pagination) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-pagination.svg)](https://travis-ci.org/npmtest/node-npmtest-pagination)
 
 #### Pagination for javascript/nodejs
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-pagination/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-pagination/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-pagination/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-pagination/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-pagination/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-pagination/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-pagination/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-pagination/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-pagination/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-pagination/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-pagination/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-pagination/build/coverage.html/index.html)
 
@@ -82,7 +82,8 @@
     "scripts": {
         "test": "vows --spec tests/*"
     },
-    "version": "0.4.4"
+    "version": "0.4.4",
+    "bin": {}
 }
 ```
 
